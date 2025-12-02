@@ -66,7 +66,6 @@ assert rotateDial(50, Rotation("L", 101)) == (49, 1)
 assert rotateDial(50, Rotation("R", 101)) == (51, 1)
 assert rotateDial(50, Rotation("L", 102)) == (48, 1)
 assert rotateDial(50, Rotation("R", 102)) == (52, 1)
-print(rotateDial(50, Rotation("R", 1000)))
 assert rotateDial(50, Rotation("R", 1000)) == (50, 10)
 
 assert rotateDial(99, Rotation("R", 1)) == (0, 0)
